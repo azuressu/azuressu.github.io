@@ -5,5 +5,10 @@ search: false
 
 @charset "utf-8";
 
+// 이 부분 추가 (max width를 100%로 선언)
+.utterances {
+    max-width: 100% !important;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
